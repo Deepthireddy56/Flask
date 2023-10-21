@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/c1.css')}}">
+</head>
+<body>
+    <center>
+        <h1>This is our First Html Page</h1>
+        <h2>{{Name}}</h2>
+        <img src="{{url_for('static',filename='images/King kohli.jpg')}}" alt="">
+        <h5><a href="{{url_for('page2')}}">Go to second html page</a></h5>
+    </center>
+</body>
+</html>
